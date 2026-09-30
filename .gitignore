@@ -1,0 +1,40 @@
+.DS_Store
+node_modules/
+dist/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+.venv/
+*.tsbuildinfo
+.env
+.env.*
+!.env.example
+backend/.backlight_*.json
+.vscode/
+frontend/test-results/
+frontend/playwright-report/
+
+# Internal product briefs, agent context, QA notes and design references stay local.
+# Only the intentionally public root README is published.
+*.[mM][dD]
+!/README.md
+generated_app_references/
+frontend/public/test-images/
+
+# Local credentials, captured media, reports and editor/tool state.
+.backlight_*.json
+*.pem
+*.key
+*.p12
+*.pfx
+*.log
+*.bundle
+.coverage
+htmlcov/
+coverage/
+.idea/
+.codex/
+.agents/
+captures/
+recordings/
